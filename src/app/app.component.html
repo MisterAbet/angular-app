@@ -1,5 +1,15 @@
 <main>
-  <h1>Hello from Angular App with Webpack</h1>
-  <input type="text" pInputText/>
+	<div class="ui-g">
+		<div class="ui-g-6">
+			<p-dataTable [(selection)]="selectedCar" [value]="items">
+			    <header>Left Table</header>
+			    <p-column selectionMode="single"></p-column>
+			    <p-column field="vin" header="Vin"></p-column>
+			    <p-column field="year" header="Year"></p-column>
+			    <p-column field="brand" header="Brand"></p-column>
+			    <p-column field="color" header="Color"></p-column>
+			</p-dataTable>
+		</div>
+	</div>
   <!-- <img src="../../public/images/angular.png"> -->
 </main>
