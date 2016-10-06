@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {DataTableModule,SharedModule,InputTextModule} from 'primeng/primeng';
+// import Backendless from 'backendless/libs';
 import '../../node_modules/primeng/resources/themes/aristo/theme.css'
 import '../../node_modules/primeng/resources/primeng.min.css';
 @NgModule({
