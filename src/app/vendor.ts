@@ -6,5 +6,8 @@ import '@angular/common';
 import '@angular/http';
 import '@angular/router';
 
+// Prime NG
+import 'primeng/primeng';
+
 // RxJS
 import 'rxjs';
